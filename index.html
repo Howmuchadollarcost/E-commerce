@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Alamata</title>
     <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300"
       rel="stylesheet"
@@ -19,6 +24,7 @@
           <ul class="text-links">
             <li><a href="#">Wishlist</a></li>
             <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
           </ul>
         </div>
       </div>
@@ -32,72 +38,118 @@
           </div>
 
           <nav class="nav-bar">
-              <ul>
-                  <li><a href="/">Home</a></li>
-                  <li><a href="#">Shop</a></li>
-                  <li><a href="#" style="border-right: none">About us</a></li>
-              </ul>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <div class="dropdown">
+                <button class="dropbtn"><a href="#">Shop</a></button>
+                <div class="dropdown-content">
+                  <a href="#">Men</a>
+                  <a href="#">Women</a>
+                  <a href="#">Children</a>
+                </div>
+              </div>
+              <li><a href="#">About us</a></li>
+              <li><a href="#new-items" style="border-right: none">New items</a></li>
+            </ul>
           </nav>
-
         </div>
       </div>
     </div>
 
     <main>
-        <section class="slider">
-            <div class="wrapper">
-                <div id="img3"><a href="#"><img src="/Pics/stock3.jpg"></a> </div>
-                <div class="center-text"><h2><a href="#">BUY THIS</a></h2></div>
-            </div>
-        </section>
-
-        <hr>
-
-        <section id="popular-items">
-          <h3>Most popular items</h3>
-          <div class="wrapper2">
-              <div id="img4"> <a href="#"> <img src="/Pics/stock4.jpg"></a></div>
-              <div id="img5"> <a href="#"> <img src="/Pics/stock5.jpg"></a></div>
-              <div id="img6"> <a href="#"> <img src="/Pics/stock6.jpg"></a></div>
+      <section class="slider">
+        <div class="wrapper">
+          <div id="img3">
+            <a href="#"><img src="/Pics/stock3.jpg"/></a>
           </div>
-        </section>
+          <div class="center-text">
+            <h2><a href="#">BUY THIS</a></h2>
+          </div>
+        </div>
+      </section>
 
-        <hr>
+      <hr />
 
-        <section id="new-items">
-            <h3>New items</h3>
-            <div class="wrapper3">
-                <div id="img7"> <a href="#"> <img src="/Pics/stock7.jpg"></a></div>
-                <div id="img8"> <a href="#"> <img src="/Pics/stock8.jpg"></a></div>
-                <div id="img9"> <a href="#"> <img src="/Pics/stock9.jpg"></a></div>
-            </div>
-          </section>
+      <section id="popular-items">
+        <h3>Most popular items</h3>
+        <div class="wrapper2">
+          <div id="img4">
+            <a href="#"> <img src="/Pics/stock4.jpg"/></a>
+          </div>
+          <div id="img5">
+            <a href="#"> <img src="/Pics/stock5.jpg"/></a>
+          </div>
+          <div id="img6">
+            <a href="#"> <img src="/Pics/stock6.jpg"/></a>
+          </div>
+        </div>
+      </section>
 
-          <hr>
+      <hr />
 
-          <section id="history">
-            <h3>History</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil harum obcaecati, 
-              ea nostrum saepe officia illum voluptatum quasi vero!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, doloribus.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatibus ratione nobis, temporibus voluptates quas illo 
-              rem nihil error earum ducimus. Tempora reiciendis magni provident dolor ipsam, hic dolorem repudiandae.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia totam commodi sunt repudiandae consequuntur perspiciatis velit 
-              explicabo dignissimos, cupiditate natus soluta facilis obcaecati, quis nam cumque quam quibusdam, perferendis voluptatem fugit incidunt 
-              doloribus? Hic alias autem at enim perferendis maiores? Sapiente at voluptates, aperiam accusamus perferendis dolorem rerum sed. Possimus!</p>
-            
-              <div id="img1"><img src="/Pics/stock1.jpg"></div>
-          </section>
+      <section id="new-items">
+        <h3>New items</h3>
+        <div class="wrapper3">
+          <div id="img7">
+            <a href="#"> <img src="/Pics/stock7.jpg"/></a>
+          </div>
+          <div id="img8">
+            <a href="#"> <img src="/Pics/stock8.jpg"/></a>
+          </div>
+          <div id="img9">
+            <a href="#"> <img src="/Pics/stock9.jpg"/></a>
+          </div>
+        </div>
+      </section>
+
+      <hr />
+
+      <section id="history">
+        <h3>History</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta nihil
+          harum obcaecati, ea nostrum saepe officia illum voluptatum quasi vero!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+          doloribus.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+          voluptatibus ratione nobis, temporibus voluptates quas illo rem nihil
+          error earum ducimus. Tempora reiciendis magni provident dolor ipsam,
+          hic dolorem repudiandae.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+          totam commodi sunt repudiandae consequuntur perspiciatis velit
+          explicabo dignissimos, cupiditate natus soluta facilis obcaecati, quis
+          nam cumque quam quibusdam, perferendis voluptatem fugit incidunt
+          doloribus? Hic alias autem at enim perferendis maiores? Sapiente at
+          voluptates, aperiam accusamus perferendis dolorem rerum sed. Possimus!
+        </p>
+
+        <div id="img1"><img src="/Pics/stock1.jpg" /></div>
+      </section>
     </main>
-   
+
     <footer>
       <div class="wrapper">
         <div class="info">
           <h4>Join</h4>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis, quam.</p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis,
+            quam.
+          </p>
           <form>
-            <input type="email" name="email" id="email" placeholder="email@eksempel.no" required>
-            <input type="submit" value="subscribe" id="subscribe">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="email@eksempel.no"
+              required
+            />
+            <input type="submit" value="subscribe" id="subscribe" />
           </form>
         </div>
 
@@ -105,11 +157,18 @@
           <h4>Follow us</h4>
 
           <ul class="social-icons">
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
           </ul>
         </div>
       </div>
