@@ -168,8 +168,8 @@ main .wrapper img {
 }
 
 main .wrapper .center-text {
-    border: solid 2px #000;
-    color: #000;
+    border: solid 2px #fff;
+    color: #fff;
     padding: 0em 1em;
     border-radius: 20px;
     position: absolute;
@@ -189,7 +189,7 @@ main .wrapper .center-text a {
     text-transform: uppercase;
     text-decoration: none;
     transition: color 0.1s ease-in-out;
-    color: #000;
+    color: #fff;
 }
 
 main .wrapper .center-text a:hover {
@@ -266,6 +266,7 @@ main .wrapper3 img {
 #history {
     margin: 2em 0;
     text-align: center;
+    overflow: hidden;
 }
 
 #history h3 {
@@ -279,8 +280,6 @@ main .wrapper3 img {
     left: 0;
     border: solid 1px #000;
 }
-
-
 
 /* footer */
 footer {
@@ -375,6 +374,18 @@ input[type=submit] {
         transition: color 0.1s ease-in-out;
         border-bottom: 1px solid #565656;
     }
+
+    
+    main .wrapper .center-text {
+        border: solid 2px #fff;
+        color: #fff;
+        top: 85%;
+    }
+
+    main .wrapper .center-text a {
+        color: #fff;
+    }
+
 
     /* popular */
     main .wrapper2 {
